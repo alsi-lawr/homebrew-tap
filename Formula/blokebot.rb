@@ -3,9 +3,9 @@
 class Blokebot < Formula
   desc "Free, open-source Twitch bot and dashboard"
   homepage "https://blokegeezington.com/blokebot/"
-  url "https://github.com/alsi-lawr/BlokeBot/releases/download/v0.4.2/blokebot-v0.4.2-osx-arm64.zip"
-  version "0.4.2"
-  sha256 "90269857e0ff142e9bbb2b21a8021da9a8daa5840f6b63a4deb1f35b982bc4e7"
+  url "https://github.com/alsi-lawr/BlokeBot/releases/download/v0.5.0/blokebot-v0.5.0-osx-arm64.zip"
+  version "0.5.0"
+  sha256 "b5377279399a12d94b79375344d99a7753835cff3092d0f6499e9c7db064fb47"
   license "MIT"
 
 
@@ -16,6 +16,6 @@ class Blokebot < Formula
 
   test do
     output = shell_output("#{bin}/blokebot --version")
-    assert_match "0.4.2", output
+    assert_match "0.5.0", output
   end
 end
