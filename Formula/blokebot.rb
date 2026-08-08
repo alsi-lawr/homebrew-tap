@@ -5,7 +5,7 @@ class Blokebot < Formula
   homepage "https://www.blokebot.com/"
   url "https://github.com/alsi-lawr/BlokeBot/releases/download/v0.7.0/blokebot-v0.7.0-osx-arm64.zip"
   version "0.7.0"
-  sha256 "4bcc75e5f72d5216b68ea80f224885295ce21a7409b6f3e7f5920b9cee29213b"
+  sha256 "311440d59254f0db92b71611fedaef40bc24b6c92fb33a5c637862a892fcbc0b"
   license "MIT"
 
 
