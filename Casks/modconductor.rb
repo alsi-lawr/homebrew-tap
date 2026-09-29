@@ -1,6 +1,6 @@
 cask "modconductor" do
   version "0.1.0"
-  sha256 "2d73d3abb1bdb4c65106534503af5381cd4c4843fa359904f65d7dc6764f07e3"
+  sha256 "f75cc0401f28bfe19d25b5add82e0cb245f8401d10c3d9de65d1028dbb589b88"
 
   url "https://github.com/ModConductor/ModConductor/releases/download/v0.1.0/modconductor-0.1.0-linux-x64.AppImage"
   name "Mod Conductor"
